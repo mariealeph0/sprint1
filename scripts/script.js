@@ -1,4 +1,4 @@
-alert("¡¡¡TE GANASTE UN SUPER DESCUENTO!!!");
+//alert("¡¡¡TE GANASTE UN SUPER DESCUENTO!!!");
 
 var cantidad=0;
 var valorInicial=0;
