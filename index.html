@@ -3,18 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>personalizatucompu.com</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/script.js"></script> 
 </head>
-<body >
-<script src="./scripts/script.js"></script>
 
-<div >
-    <h4><strong> Creado a tu imagen y semejanza </strong> </h4>
+<header id="header" >
+    <hr size="8px" color="white" />
+    <h1><strong>Personalizatucompu.com</strong></h1>
+    <h2><strong> Creado a tu imagen y semejanza </strong> </h2>
+    <hr size="8px" color="white" />
+    
+</header>
+
+<main>   
+     <hr size="8px" color="white" />
     <h1>Bienvenido a Personalizatucompu.com!!!!!</h1>
+    <img src="images/principallogo.png">
     <h2>Detalles de tu compra</h2>
-        <label>Ingresar el número de computadoras compradas</label>
+        <label>Ingresar el número de computadoras compradas
         <input type="text" id="idcantidad"></label>  
         <button onclick="ValorTotal()" > Calcular super descuento!</button>
-</div>  
-   
+</main>  
+
+<body background="images/compu.jpg">
+<div id="caja">
+    <hr size="8px" color="white" />
+    <p>Orden de compra: #123456-01</p>
+    <div><label>Valor inicial de compra:</label>
+        <input type="number" id="valorInicial"></div>     
+   <div><label>Valor de descuento:</label>
+        <input type="number" id="valorDescuento"></div>
+    
+    <div><label>Total (valor con descuento aplicado):</label>
+        <input type="number" id="valorPagar"></div>
+</div> 
+
+  
 </body>
 </html>
